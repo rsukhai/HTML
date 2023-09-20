@@ -1,0 +1,31 @@
+.center {
+    text-align: center;
+    font-size: 10px;
+}
+
+#nav {
+    float: right;
+}
+#cc{
+    text-align: center;
+    margin: 200px;
+}
+#body{
+    background-color: red;
+}
+#body1{
+    
+}
+#body2 {
+    text-align: center;
+    margin-left: 666px;
+    margin-right: 150px;
+    
+}
+#body3 {
+    text-align: right;
+}
+#o {
+    text-align: right;
+    margin-left: 150px;
+}
