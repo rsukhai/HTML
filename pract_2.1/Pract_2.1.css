@@ -1,0 +1,80 @@
+#body{
+ background-size: cover;
+   background-image: url(WallpaperDog-13690.png);
+}
+#Div1{
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    margin-top: 50px;
+}
+#Div3{
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin-left: 450px;
+}
+#hr{
+    color: white;
+    height: 3px;
+    background-color: white;
+    width: 75px;
+}
+#Div4{
+    background-color: orange;
+    width: 750px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+#TL1{
+    width: 250px;
+    text-align: center;
+
+
+}
+#TL2{
+    width: 250px;
+    text-align: center;
+
+}
+#TL3{
+    width: 250px;
+    text-align: center;
+
+
+}
+#Pin{
+ width: 60px;
+ height: 60px;
+ background-color: white;
+ border-radius: 30px;
+ margin-top: 35px;
+ margin-bottom: 30px;
+ 
+}
+#Email
+{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0px 5px 10px 5px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    
+   }    
+#Tel{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0px 5px 10px 5px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+#footer{
+    background-color: green;
+
+}
