@@ -1,0 +1,154 @@
+#color1{
+    background-color: steelblue;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    z-index:-1;
+    top:0;
+    left:0
+
+}
+#color2{
+    background-color: skyblue;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    z-index:-1;
+    top:50%;
+    left:0
+}
+#main{
+    width: 40%;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 800px;
+    height: 100vh;
+
+}
+#text1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70px;
+    color: white;
+}
+#text2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+    color: white;
+}
+#img{
+    height: 35px;
+    width: 35px;
+}
+#telefon{
+    color: crimson;
+}
+#main2{
+    height: 65vh;
+    display: flex;
+}
+#section{
+    width: 50%;
+    height: 100%;
+}
+#big{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bnbn.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+
+#text_box{
+    color: white;
+    font-size: 35px;
+}
+#small{
+    display: flex;
+    width: 100%;
+    height: 45%;
+
+}
+
+#nepal{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(nepal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#kenia{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(kenia.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+#text_n{
+    color: white;
+    font-size: 35px;
+}
+#text_k{
+    color: white;
+    font-size: 35px;
+}
+#small_2{
+    display: flex;
+    width: 100%;
+    height: 193px;
+
+}
+#big_2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(new_zeland.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#Iceland{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(iceland.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+#Ethiopia{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(ethiopia.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
