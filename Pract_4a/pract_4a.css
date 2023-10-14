@@ -1,0 +1,382 @@
+:root {
+    --main-white: #ffffff;
+    --main-pink: #f9cacd;
+    --main-grey: #cecece;
+    --main-purpure: #b6b2e6;
+   }
+   
+   body { margin: 0 }
+   
+   .container {
+    width: 60%;
+    max-width: 1200px;
+    min-width: 900px;
+   
+    margin: auto;
+   
+    >header {
+     display: flex;
+     >li {
+      list-style-type: none;
+      padding: 20px 15px;
+      cursor: pointer;
+      transition: 0.25s;
+      &:hover {
+       color: var(--main-purpure)
+      }
+     }
+    }
+   
+    .main-picture {
+     box-sizing: border-box;
+     margin: 25px 0;
+     width:100%;
+     height: 600px;
+     background-image: url(la.jpeg);
+     background-position: center;
+     background-size: cover;
+     border-radius: 25px;
+     position: relative;
+     overflow: hidden;
+   
+     color: whitesmoke;
+   
+     .filter {
+      width:100%;
+      height: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.25);
+     }
+   
+     >div:nth-child(2) {
+      position: absolute;
+      z-index: 2;
+      width:100%;
+      height: 100%;
+   
+      box-sizing: border-box;
+      padding: 30px;
+   
+      display: flex;
+      flex-direction: column;
+   
+      justify-content: center;
+   
+      .title {
+       font-size: 3.5em;
+       font-weight: bolder;
+      }
+      .description {
+       font-size: 1em;
+       margin: 10px 0;
+      }
+   
+      >div:last-child {
+       width:50%;
+       background-color: var(--main-grey);
+       padding: 10px;
+       border-radius: 20px;
+   
+       display: flex;
+       /* justify-content: center; */
+       align-items: center;
+   
+       >input:focus-visible {
+        outline: none;
+       }
+   
+       >input {
+        border: none;
+        padding: 15px;
+        border-radius: 15px;
+        flex-grow: 3;
+       }
+   
+       >button {
+        background-color: black;
+        padding: 15px;
+        color: whitesmoke;
+        text-transform: uppercase;
+        border-radius: 15px;
+        margin-left: 15px;
+       }
+      }
+     }
+    }
+   }
+   
+   .cities-wrap {
+    width:100%;
+    background-color: var(--main-pink);
+   }
+   
+   .cities {
+    box-sizing: border-box;
+    height: 790px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 35px 0;
+   
+    >.item {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   
+     .title {
+      font-size: 1.25em;
+      font-weight: bolder;
+      text-align: center;
+      margin: 10px 0;
+     }
+   
+     .description {
+      font-size: 0.75em;
+      text-align: center;
+     }
+   
+     .item-picture {
+      border-radius: 50%;
+      aspect-ratio: 1/1;
+      width: 65%;
+      background-position: center;
+      background-size: cover;
+     }
+   
+     >.item-picture[city="paris"] {
+      background-image: url(paris.jpeg);
+     }
+   
+     >.item-picture[city="New York"] {
+      background-image: url(pexels-photo-325185.jpeg);
+     }
+   
+     >.item-picture[city="Los Angeles"] {
+      background-image: url('la.jpeg');
+     }
+   
+     >.item-picture[city="Chicago"] {
+      background-image: url(pexels-photo-2090651.jpeg);
+     }
+   
+     >.item-picture[city="Verona"] {
+      background-image: url(pexels-photo-1769369.jpeg);
+     }
+   
+     >.item-picture[city="Tokio"] {
+      background-image: url(pexels-photo-1029615.jpeg);
+     }
+    }
+   }
+   .container2{
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+    >.New{
+        width: 100%;
+        height: 70px;
+        text-align: left;
+        font-size: 50px;
+        margin-top: 15px;
+
+
+    }
+    >.Samle{
+        width: 100%;
+        height: 50px;
+        font-size: 25px ;
+        >#free{
+            color: blue;
+        }
+    }
+    >.sky{
+        width: 100%;
+        height: 60vh;
+        >#sky_ph{
+            width: 920px;
+            height: 570px;
+            border-radius: 25px;
+        }
+        
+    }
+
+   }
+   .container3{
+    width: 60%;
+    height: 650px;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 290px 290px 290px; 
+    grid-template-rows: 290px 290px 290px;
+    row-gap: 20px;
+    column-gap: 20px;
+    >.grid_item{
+        >.imgg_3{
+            height: 290px;
+            width: 290px;
+        }
+        
+    }
+
+   }
+   .container4{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+   
+    >#keys{
+        height: 100%;
+        width: 50%;
+        border-radius: 25px;
+        >#keyss{
+            height: 100%;
+            width: 455px;
+            border-radius: 25px;
+        }
+    }
+    >#textt{
+        margin-left: 20px;
+        height: 100%;
+        width: 50%;
+        border-radius: 25px;
+        background-color: lightblue;
+        >#main_txt{
+            font-size: 35px;
+            margin-left: 15px;
+            margin-top: 120px;
+            margin-bottom: 0;
+        }
+        >#sample_txt{
+            margin-left: 15px;
+            color: gray;
+        }
+        >#ul{
+            >#li{
+                margin-top: 10px;
+            }
+            
+        }
+        >#bot{
+            margin-left: 15px;
+            color: gray;
+            >#blue{
+                color: blue;
+            }
+        }
+
+
+
+
+    }
+
+
+
+
+   }
+   .container5{
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 100px;
+    >#Exclusive_ap{
+        width: 100%;
+        height: 20%;
+        >p{
+            >strong{
+                font-size: 45px;
+            }
+        }
+        >#sample_txt{
+            font-size: 20px;
+            color: grey;
+            >#blue{
+                color: blue;
+            }
+        }
+    }
+    >#photo{
+        width: 100%;
+        height: 60%;
+        background-color: red;
+        background-image: url(low-angle-shot-facade-white-modern-building-blue-clear-sky.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 25px;
+    }
+
+
+
+
+
+   }
+   .container6{
+    width: 100%;
+    margin: auto;
+    height: 30vh;
+    margin-top: 50px;
+    background-color: var(--main-pink);
+
+    >.container61{
+        width: 60%;
+        margin: auto;
+        height: 100%;
+        text-align: left;
+        >#PPP{
+            padding-top: 35px;
+            margin-left: 100px;
+            >strong{
+                
+                font-size: 40px;
+            }
+        }
+        >#sample_txt{
+            font-size: 20px;
+            color: grey;
+            margin-left: 100px;
+
+        }
+        >#down{
+            margin-left: 100px;
+            color: gray;
+            padding-top: 15px;
+            >input{
+                border: 0;
+                border-radius: 10px;
+                width: 300px;
+                height: 30px;
+            }
+            >#submit{
+                width: 296px;
+                height: 28px;
+                padding: 5px 10px 5px 10px;
+                background-color: black;
+                margin-left: 15px;
+                border-radius: 5px;
+                color: white;
+                
+            }
+        }
+
+
+    }
+    
+
+
+
+
+   }
+   .footer{
+    width: 100%;
+    height: 20vh;
+    background-color: gray;
+    text-align: center;
+   }
+  
+    
