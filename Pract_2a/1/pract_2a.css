@@ -80,7 +80,7 @@
 
 #nepal{
     width: 50%;
-    height: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,7 @@
 }
 #kenia{
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@
 #small_2{
     display: flex;
     width: 100%;
-    height: 193px;
+    height: 45%;
 
 }
 #big_2{
