@@ -1,0 +1,19 @@
+.cost-wrapper {
+ font-size: 3em;
+ text-align: center;
+ margin-bottom: 20px;
+ color: whitesmoke;
+ display: flex;
+ justify-content: center;
+ column-gap: 20px;
+ flex-wrap: wrap;
+}
+
+
+.selected-goods {
+ width:75%;
+ margin: auto;
+ padding: 5px;
+ display: flex;
+ flex-wrap: wrap;
+}
